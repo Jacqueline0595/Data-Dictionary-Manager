@@ -497,7 +497,7 @@ void createEntity(FILE *dictionary, char *dictionaryName)
 
     orderEntity(dictionary, 0, newEntity.name, dirEntity);
 
-    printf("Entity '%s' created successfully, and added to %ld.\n", newEntity.name, dirEntity);
+    printf("Entity '%s' created successfully.\n", newEntity.name);
 }
 
 long writeEntity(FILE *dictionary, ENTITIES newEntity)
